@@ -1,0 +1,297 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(242, 234, 226);
+}
+
+.window-shopping {
+  display: flex;
+  justify-content: space-between;
+}
+
+.empty {
+  width: 356px;
+}
+
+.set-colors {
+  margin: 0;
+  padding: 0;
+  padding-top: 125px;
+}
+
+.set-colors button {
+  margin: 0;
+  padding: 0;
+  width: 34px;
+  height: 34px;
+  border-radius: 17px;
+  margin-right: 14px;
+}
+
+#green {
+  background-color: rgb(61, 129, 104);
+  border: 2px solid rgb(61, 129, 104);
+}
+
+#grey {
+  background-color: rgb(108, 114, 137);
+  border: 2px solid rgb(108, 114, 137);
+}
+
+#black {
+  background-color: rgb(28, 35, 43);
+  border: 2px solid rgb(28, 35, 43);
+}
+
+#grey:active,
+#grey:hover {
+  border: 2px solid rgb(108, 114, 137);
+  outline: 2px solid rgb(108, 114, 137); /* Цвет, толщина и стиль окантовки */
+  outline-offset: 1px;
+}
+
+#black:active,
+#black:hover {
+  border: 2px solid rgb(28, 35, 43);
+  outline: 2px solid rgb(28, 35, 43); /* Цвет, толщина и стиль окантовки */
+  outline-offset: 1px;
+}
+
+#green:active,
+#green:hover {
+  border: 2px solid rgb(61, 129, 104);
+  outline: 2px solid rgb(61, 129, 104); /* Цвет, толщина и стиль окантовки */
+  outline-offset: 1px;
+}
+
+.shopping-card {
+  margin: 18px;
+}
+
+.shopping-items {
+  display: flex;
+  margin: 0 12px 0 15px;
+}
+
+.shopping-card h1 {
+  margin: 0;
+  padding: 0;
+  color: rgb(28, 35, 43);
+  font-family: Fraunces;
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin: 15px 0 20px 15px;
+}
+
+.discount {
+  margin: 0;
+  padding: 0;
+  width: 75px;
+  height: 20px;
+  color: rgb(28, 35, 43);
+  font-family: Fraunces;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: right;
+}
+
+.discount:last-child {
+  padding-right: 5px;
+}
+
+.count {
+  width: 30px;
+  text-align: center;
+}
+
+.name-goods {
+  margin: 0;
+  padding: 0;
+  width: 145px;
+  height: 40px;
+  color: rgb(28, 35, 43);
+  font-family: Fraunces;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-bottom: 18px;
+}
+
+.final-price {
+  margin: 0;
+  padding: 0;
+  width: 329px;
+  height: 32px;
+  color: rgb(61, 129, 104);
+  font-family: Fraunces;
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: right;
+  margin: 0 12px 16px 15px;
+}
+
+.card {
+  width: 600px;
+  height: 450px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-top: 15px;
+}
+
+.photo img {
+  border-radius: 10px 0 0 10px;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.info {
+  padding: 32px;
+  background-color: white;
+  border-radius: 0 10px 10px 0;
+}
+
+.perf {
+  margin: 0;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: 5px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.main-h1 {
+  margin: 0;
+  color: rgb(28, 35, 43);
+  font-family: Fraunces;
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 32px;
+  text-align: left;
+  margin-bottom: 24px;
+}
+
+.text {
+  color: rgb(108, 114, 137);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 23px;
+  text-align: left;
+  margin-bottom: 29px;
+}
+
+.price {
+  display: flex;
+  align-self: end;
+  margin-bottom: 30px;
+}
+
+.new-price {
+  margin: 0;
+  padding: 0;
+  color: rgb(61, 129, 104);
+  font-family: Fraunces;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.old-price {
+  margin-top: 5px;
+  color: rgb(108, 114, 137);
+  font-family: Montserrat;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 23px;
+  text-align: left;
+  text-decoration-line: line-through;
+  margin-left: 11px;
+}
+
+.add-goods {
+  border-radius: 8px;
+  background: rgb(61, 129, 104);
+  width: 236px;
+  height: 48px;
+  border: none;
+  outline: none;
+}
+
+.butt {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.butt img {
+  margin: 0;
+  padding: 0;
+}
+
+.butt p {
+  margin: 0;
+  padding: 0;
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-left: 11.61px;
+}
+
+.shopping-card {
+  width: 356px;
+  height: 173px;
+  border-radius: 10px;
+  background: rgb(255, 255, 255);
+}
+
+.count-bottom {
+  width: 25px;
+  height: 20px;
+  background-color: rgb(223, 235, 229);
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.count-bottom:hover {
+  background-color: rgb(195, 217, 206);
+}
+
+.add-goods:hover {
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5); /* Большая тень при наведении */
+}
+
+.add-goods:active {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4); /* Меньшая тень при нажатии */
+  transform: translateY(1px);
+}
+
